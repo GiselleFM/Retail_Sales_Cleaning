@@ -30,7 +30,7 @@ The dataset includes retail transaction records with the following columns:
 ## 🔧 Techniques Used
 
 - Filled missing `Price Per Unit` values by mapping from `Item`
-- Imputed `Quantity` using the average quantity per price point
+- Imputed `Quantity` using the mean quantity per price point
 - Recalculated `Total Spent` where sufficient data was available
 - Inferred `Discount Applied` by comparing calculated and reported totals
 - Reconstructed missing `Item` names using combinations of `Category` and `Price Per Unit`
@@ -59,7 +59,7 @@ The dataset includes retail transaction records with the following columns:
 
 ```
 Sales_Cleaning.ipynb    # Main Jupyter notebook
-retail_store_sales.csv  # Input dataset (not included)
+retail_store_sales.csv  # Input dataset
 ```
 
 ---
@@ -81,4 +81,4 @@ jupyter notebook
 
 **Giselle Freitas Moura**  
 📫 [gisellinhapb@gmail.com](mailto:gisellinhapb@gmail.com)  
-🌎 [LinkedIn](https://www.linkedin.com/in/seu-perfil) *(update with your real link)*
+🌎 [LinkedIn](www.linkedin.com/in/giselle-freitas-97a32b235)
